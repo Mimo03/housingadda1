@@ -1,0 +1,24 @@
+.loader {
+    display:inline-block;
+    border: 5px dotted lightgray;
+    border-radius: 50%;
+    border-top: 5px solid gray;
+    border-bottom:5px solid gray;
+    width: 30px;
+    height: 30px;
+    -webkit-animation: spin 1s linear infinite; /* Safari */
+    animation: spin 1s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  .loader-symbol{
+  text-align:center}
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
